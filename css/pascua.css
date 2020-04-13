@@ -1,17 +1,17 @@
 body{
   font-family: Arial;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 
 .container{
   display: grid;
-  grid-template: 1fr 200px 1fr 150px / 1fr 1fr;
+  grid-template: 1fr 250px 1fr 400px / 1fr 1fr;
   text-align: center;
-  grid-gap: 10px;
+  grid-gap: 10px 0px;
   grid-template-areas:
     "header header"
-    "footer contenido" 
+    "contenido1 footer" 
     "hero hero"
     "beneficios contenido2";
   height: 100vh;
