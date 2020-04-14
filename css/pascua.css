@@ -103,20 +103,6 @@ body{
 
 @media (max-width: 768px){
 
-  /* .container{
-    display: grid;
-    grid-template-rows: 1fr 150px 150px;
-    grid-template-columns: 3fr 1fr 2fr 1fr 1fr;
-    text-align: center;
-    grid-gap: 10px;
-    grid-template-areas:
-      "header header header header header"
-      "hero hero beneficios contenido1 contenido1"
-      "hero hero beneficios contenido2 footer";
-    height: 100vh;
-    background-color: #666;
-  } */
-
 .container{
   display: grid;
   grid-template: 1fr 250px 1fr 400px / 1fr 1fr;
